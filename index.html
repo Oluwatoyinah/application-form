@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid py-5" id="top">
+        <div class="container">
+              
+                <ul class="nav nav-pills main-pill row g-0">
+                    <li class="col-md-4">
+                        <a href="#corporateApplication" data-toggle="tab">Corporate Application</a>
+                    </li>
+                    <li class="col-md-4 active">
+                        <a href="#individualApplication" data-toggle="tab">Individual Application</a>
+                    </li>
+                    <li class="col-md-4">
+                        <a href="#loanApplication" data-toggle="tab">Loan Application</a>
+                    </li> 
+                </ul> 
+
+                <div class="tab-content tab-body">
+                    <!--TAB ONE-->
+                    <div class="tab-pane" id="corporateApplication">
+                        <div class="mb-md-5 mb-3">
+                            <h2 class="tab-title">Corporate Account Form</h2>
+                        </div> 
+                        <div class="mb-2">
+                            <ul class="nav nav-pills inner-pill d-flex flex-column flex-md-row gap-md-3 gap-2 justify-content-end ">
+                                <li class="active corporate-pill-list">
+                                    <a href="#companyDetails" data-toggle="tab">Company's Details</a>
+                                </li>
+                                <li class="corporate-pill-list">
+                                    <a href="#signatoryDetails" data-toggle="tab">Signatory's Details</a>
+                                </li>
+                                <li class="corporate-pill-list">
+                                    <a href="#directorDetails" data-toggle="tab">Director's Details</a>
+                                </li> 
+                            </ul>
+                        </div> 
+        
+                        <div class="tab-content tab-sub-body">
+                            <div class="tab-pane active corporate-tab-pane" id="companyDetails">
+                                <form class="row mb-3">
+                                    <div class="col-12 mb-3">
+                                        <label for="">Company's Name <span class="tx-red">*</span></label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-12 mb-3">
+                                        <label for="">Certificate of Incorporation Number <span class="tx-red">*</span></label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-12 mb-3">
+                                        <label for="">Date of Incorporation <span class="tx-red">*</span></label>
+                                        <input type="date" name="" id="">
+                                    </div>
+
+                                    <div class="col-12 mb-3">
+                                        <label for="">Type of Business <span class="tx-red">*</span></label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-12 mb-3">
+                                        <label for="">Operating Business Address <span class="tx-red">*</span></label>
+                                        <textarea name="" id="" cols="30" rows="4"></textarea>
+                                    </div>
+
+                                    <div class="col-12 mb-3">
+                                        <label for="">Corporate Business Address/Registered Office (If different from above)</label>
+                                        <textarea name="" id="" cols="30" rows="4"></textarea>
+                                    </div>
+
+                                    <div class="col-12 mb-3">
+                                        <label for="">Email <span class="tx-red">*</span></label>
+                                        <input type="email" name="" id="">
+                                    </div>
+
+                                    <div class="col-12 mb-3">
+                                        <label for="">Website</label>
+                                        <input type="url" name="" id="">
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Phone Number (1)<span class="tx-red">*</span></label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Phone Number (2) <span class="tx-red">*</span></label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-12 mb-3">
+                                        <label for="">Tax Identification Number (TIN) <span class="tx-red">*</span></label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-12 mb-3">
+                                        <label for="">Annual Turnover <span class="tx-red">*</span></label>
+                                        <input type="text" name="" id="">
+                                    </div> 
+                                </form>
+
+                                <div>
+                                    <button class="next-page">Next</button>
+                                </div>
+                            </div>
+                            <div class="tab-pane corporate-tab-pane" id="signatoryDetails">
+                                <form class="row mb-3">
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Surname <span class="tx-red">*</span></label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">First Name <span class="tx-red">*</span></label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Middle Name</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Mother's Maiden Name </label>
+                                        <input type="text" name="" id="">
+                                    </div> 
+                                    
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Phone Number <span class="tx-red">*</span></label>
+                                        <input type="text" name="" id="">
+                                    </div> 
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Occupation <span class="tx-red">*</span></label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Gender <span class="tx-red">*</span></label>
+                                        <select name="" id="">
+                                            <option value="" selected disabled>Choose</option> 
+                                            <option value="">Male</option>
+                                            <option value="female">Female</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Date of Birth <span class="tx-red">*</span></label>
+                                        <input type="date" name="" id="">
+                                    </div> 
+
+                                    <div class="col-12 mb-3">
+                                        <label for="">Residential Address <span class="tx-red">*</span></label>
+                                        <textarea name="" id="" cols="30" rows="4"></textarea>
+                                    </div>  
+                                </form>
+
+                                <div>
+                                    <button class="previous-page">Previous</button>
+                                    <button class="next-page">Next</button>
+                                </div>
+                            </div>
+                            <div class="tab-pane corporate-tab-pane" id="directorDetails">
+                                <form class="row mb-3">
+                                    <div class="col-lg-6 col-md-6 mb-3">
+                                        <label for="">Surname <span class="tx-red">*</span></label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 mb-3">
+                                        <label for="">First Name <span class="tx-red">*</span></label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Middle Name</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Mother's Maiden Name </label>
+                                        <input type="text" name="" id="">
+                                    </div> 
+                                    
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Phone Number <span class="tx-red">*</span></label>
+                                        <input type="text" name="" id="">
+                                    </div> 
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Gender <span class="tx-red">*</span></label>
+                                        <select name="" id="">
+                                            <option value="" selected disabled>Choose</option> 
+                                            <option value="">Male</option>
+                                            <option value="female">Female</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Date of Birth <span class="tx-red">*</span></label>
+                                        <input type="date" name="" id="">
+                                    </div> 
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Occupation <span class="tx-red">*</span></label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-12 mb-3">
+                                        <label for="">Residential Address <span class="tx-red">*</span></label>
+                                        <textarea name="" id="" cols="30" rows="4"></textarea>
+                                    </div>  
+                                </form>
+
+                                <div>
+                                    <button class="previous-page">Previous</button>
+                                    <button class="submit-btn">Submit</button>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+
+
+                    <!--TAB TWO-->
+                    <div class="tab-pane active" id="individualApplication">
+                        <div class="mb-md-5 mb-3">
+                            <h2 class="tab-title">Individual Account Opening Form</h2>
+                        </div> 
+                        <div class="mb-2">
+                            <ul class="nav nav-pills inner-pill d-flex flex-column flex-md-row gap-md-3 gap-2 justify-content-end">
+                                <li class="active individual-pill-list">
+                                    <a href="#personalinfo" data-toggle="tab">Personal Information</a>
+                                </li>
+                                <li class="individual-pill-list">
+                                    <a href="#contactdetails" data-toggle="tab">Contact Details</a>
+                                </li>
+                                <li class="individual-pill-list">
+                                    <a href="#employmentDetails" data-toggle="tab">Employment Details</a>
+                                </li> 
+                            </ul>
+                        </div> 
+        
+                        <div class="tab-content tab-sub-body">
+                            <div class="tab-pane individual-tab-pane active" id="personalinfo">
+                                <form class="row mb-3"> 
+                                    <div class="col-12 mb-3">
+                                        <div class="col-md-6 col-lg-4">
+                                            <img id="personalImg" class="user-avatar" src="./images/avatar.webp" alt="your image" height="250" width="250" />
+                                            <input accept="image/*" type='file' id="personalImgInp" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Title</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Surname <span class="tx-red">*</span></label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">First Name <span class="tx-red">*</span></label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Middle Name</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Nickname</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Gender <span class="tx-red">*</span></label>
+                                        <select name="" id="">
+                                            <option value="" selected disabled>Choose</option> 
+                                            <option value="">Male</option>
+                                            <option value="female">Female</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Marital Status <span class="tx-red">*</span></label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Date of Birth <span class="tx-red">*</span></label>
+                                        <input type="date" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Mother's Maiden Name <span class="tx-red">*</span></label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Nationality</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-12 mb-3">
+                                        <label for="">Residential Permit No.</label>
+                                        <textarea name="" id="" cols="30" rows="4"></textarea>
+                                    </div> 
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">State of Origin</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">LGA</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+ 
+                                </form>
+                                
+                                <div> 
+                                    <button class="individual-next-page">Next</button>
+                                </div>
+                            </div>
+                            <div class="tab-pane individual-tab-pane" id="contactdetails"> 
+                                <form class="row mb-3">
+                                    <h5 class="mb-2 inner-heading">Residential Address</h5> 
+                                    <div class="col-lg-2 col-md-6 mb-3">
+                                        <label for="">Street Number</label>
+                                        <input type="number" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 mb-3">
+                                        <label for="">Street Name</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">City</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-12 mb-3">
+                                        <label for="">Nearest Bustop</label>
+                                        <textarea name="" id="" cols="30" rows="2"></textarea>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Phone Number(1)</label>
+                                        <input type="number" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Phone Number (2) </label>
+                                        <input type="number" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Email</label>
+                                        <input type="email" name="" id="">
+                                    </div>
+
+                                    <div class="mt-4">
+                                        <h5 class="mb-2 inner-heading">Means of Identification</h5>
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">ID Card Type</label>
+                                        <select name="" id="">
+                                            <option value="" selected disabled>Choose</option> 
+                                            <option value="">National ID Card</option>
+                                            <option value="">Driver's License</option>
+                                            <option value="">Voter's Card</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Other (Specify)</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">ID No.</label>
+                                        <input type="number" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">ID Issue Date</label>
+                                        <input type="date" name="" id="">
+                                    </div> 
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">ID Expiry Date</label>
+                                        <input type="date" name="" id="">
+                                    </div> 
+                                </form> 
+                                
+                                <div>
+                                    <button class="individual-previous-page">Previous</button>
+                                    <button class="individual-next-page">Next</button>
+                                </div>
+                            </div>
+                            <div class="tab-pane individual-tab-pane" id="employmentDetails">
+                                <form class="row mb-3"> 
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Employment Status</label>
+                                        <select name="" id="">
+                                            <option value="" selected disabled>Choose</option> 
+                                            <option value="Employed">Employed</option>
+                                            <option value="Self-Employed">Self-Employed</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-lg-8 col-md-6 mb-3">
+                                        <label for="">Other (Specify)</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Employer's Name</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="mt-4">
+                                        <h5 class="mb-2 inner-heading">Employer's/Employment Address (Even if self-employed)</h5>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-6 mb-3">
+                                        <label for="">Street Number</label>
+                                        <input type="number" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 mb-3">
+                                        <label for="">Street Name</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">City</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-12 mb-3">
+                                        <label for="">Nearest Bustop</label>
+                                        <textarea name="" id="" cols="30" rows="2"></textarea>
+                                    </div>
+
+                                    <div class="col-12 mb-3">
+                                        <label for="">Nature of Business</label>
+                                        <textarea name="" id="" cols="30" rows="2"></textarea>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Office Phone Number</label>
+                                        <input type="number" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Fax Number</label>
+                                        <input type="number" name="" id="">
+                                    </div>
+
+                                    <!--Next of Kin-->
+                                    <div class="mt-4">
+                                        <h5 class="mb-2 inner-heading">Details of Next of Kin</h5>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">First Name</label>
+                                        <input type="email" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Middle Name</label>
+                                        <input type="email" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Last Name</label>
+                                        <input type="email" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-6 mb-3">
+                                        <label for="">Street Number</label>
+                                        <input type="number" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 mb-3">
+                                        <label for="">Street Name</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">City</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-12 mb-3">
+                                        <label for="">Nearest Bustop</label>
+                                        <textarea name="" id="" cols="30" rows="2"></textarea>
+                                    </div> 
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Mobile Number</label>
+                                        <input type="Number" name="" id="">
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Relationship</label>
+                                        <input type="text" name="" id="">
+                                    </div> 
+                                </form> 
+                                
+                                <div>
+                                    <button class="individual-previous-page">Previous</button>
+                                    <button class="submit-btn">Submit</button>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+
+
+                    <!--TAB THREE-->
+                    <div class="tab-pane" id="loanApplication">
+                        <div class="mb-md-5 mb-3">
+                            <h2 class="tab-title">Mortgage Loan Form</h2>
+                        </div> 
+                        <div class="mb-2">
+                            <ul class="nav nav-pills inner-pill d-flex flex-column flex-md-row gap-md-3 gap-2 justify-content-end">
+                                <li class="active loan-pill-list">
+                                    <a href="#borrowerParticulars" data-toggle="tab">Particulars of Borrower</a>
+                                </li>
+                                <li class="loan-pill-list">
+                                    <a href="#personalFinancialInfo" data-toggle="tab">Personal Financial Information</a>
+                                </li>
+                                <li class="loan-pill-list">
+                                    <a href="#loanParticulars" data-toggle="tab">Particulars of The Loan</a>
+                                </li> 
+                            </ul>
+                        </div> 
+        
+                        <div class="tab-content tab-sub-body">
+                            <div class="tab-pane loan-tab-pane active" id="borrowerParticulars">
+                                <form class="row mb-3"> 
+                                    <div class="col-12 mb-3">
+                                        <div class="col-md-6 col-lg-4">
+                                            <img id="borrowerImg" class="user-avatar" src="./images/avatar.webp" alt="your image" height="250" width="250" />
+                                            <input accept="image/*" type='file' id="borrowerImgInp" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">First Name</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Surname</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Middle Name</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Nickname</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Gender</label>
+                                        <select name="" id="">
+                                            <option value="" selected disabled>Choose</option> 
+                                            <option value="">Male</option>
+                                            <option value="">Female</option> 
+                                        </select>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Marital Status</label>
+                                        <select name="" id="">
+                                            <option value="" selected disabled>Choose</option> 
+                                            <option value="">Married</option>
+                                            <option value="">Single</option>
+                                            <option value=""></option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Date of Birth</label>
+                                        <input type="date" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Mother's Maiden Name <span class="tx-red">*</span></label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Nationality (For Non-Nigerians)</label>
+                                        <input type="text" name="" id="">
+                                    </div> 
+
+                                    <div class="col-12 mb-3">
+                                        <label for="">Residential Permit No.</label>
+                                        <textarea name="" id="" cols="30" rows="4"></textarea>
+                                    </div> 
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">State of Origin</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">LGA</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+ 
+                                </form>
+                                
+                                <div> 
+                                    <button class="loan-next-page">Next</button>
+                                </div>
+                            </div>
+                            <div class="tab-pane loan-tab-pane" id="personalFinancialInfo">
+                                <form class="row mb-3">
+                                    <h5 class="mb-2 inner-heading">Residential Address</h5> 
+                                    <div class="col-lg-2 col-md-6 mb-3">
+                                        <label for="">Street Number</label>
+                                        <input type="number" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 mb-3">
+                                        <label for="">Street Name</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">City</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-12 mb-3">
+                                        <label for="">Nearest Bustop</label>
+                                        <textarea name="" id="" cols="30" rows="2"></textarea>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Phone Number(1)</label>
+                                        <input type="number" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Phone Number (2) </label>
+                                        <input type="number" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Email</label>
+                                        <input type="email" name="" id="">
+                                    </div>
+
+                                    <div class="mt-4">
+                                        <h5 class="mb-2 inner-heading">Means of Identification</h5>
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">ID Card Type</label>
+                                        <select name="" id="">
+                                            <option value="" selected disabled>Choose</option> 
+                                            <option value="">National ID Card</option>
+                                            <option value="">Driver's License</option>
+                                            <option value="">Voter's Card</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Other (Specify)</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">ID No.</label>
+                                        <input type="number" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">ID Issue Date</label>
+                                        <input type="date" name="" id="">
+                                    </div> 
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">ID Expiry Date</label>
+                                        <input type="date" name="" id="">
+                                    </div> 
+                                </form> 
+                                
+                                <div>
+                                    <button class="loan-previous-page">Previous</button>
+                                    <button class="loan-next-page">Next</button>
+                                </div>
+                            </div>
+                            <div class="tab-pane loan-tab-pane" id="loanParticulars">
+                                <form class="row mb-3"> 
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Employment Status <span class="tx-red">*</span></label>
+                                        <select name="" id="">
+                                            <option value="" selected disabled>Choose</option> 
+                                            <option value="Employed">Employed</option>
+                                            <option value="Self-Employed">Self-Employed</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-lg-8 col-md-6 mb-3">
+                                        <label for="">Other (Specify) <span class="tx-red">*</span></label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Employer's Name</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="mt-4">
+                                        <h5 class="mb-2 inner-heading">Employer's/Employment Address (Even if self-employed)</h5>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-6 mb-3">
+                                        <label for="">Street Number</label>
+                                        <input type="number" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 mb-3">
+                                        <label for="">Street Name</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">City</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-12 mb-3">
+                                        <label for="">Nearest Bustop</label>
+                                        <textarea name="" id="" cols="30" rows="2"></textarea>
+                                    </div>
+
+                                    <div class="col-12 mb-3">
+                                        <label for="">Nature of Business</label>
+                                        <textarea name="" id="" cols="30" rows="2"></textarea>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Office Phone Number</label>
+                                        <input type="number" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Fax Number</label>
+                                        <input type="number" name="" id="">
+                                    </div>
+
+                                    <!--Next of Kin-->
+                                    <div class="mt-4">
+                                        <h5 class="mb-2 inner-heading">Details of Next of Kin</h5>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">First Name</label>
+                                        <input type="email" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Middle Name</label>
+                                        <input type="email" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">Last Name</label>
+                                        <input type="email" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-6 mb-3">
+                                        <label for="">Street Number</label>
+                                        <input type="number" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 mb-3">
+                                        <label for="">Street Name</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <label for="">City</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-12 mb-3">
+                                        <label for="">Nearest Bustop</label>
+                                        <textarea name="" id="" cols="30" rows="2"></textarea>
+                                    </div> 
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Mobile Number</label>
+                                        <input type="Number" name="" id="">
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Relationship</label>
+                                        <input type="text" name="" id="">
+                                    </div> 
+                                </form> 
+                                
+                                <div>
+                                    <button class="loan-previous-page">Previous</button>
+                                    <button class="submit-btn">Submit</button>
+                                </div>
+                            </div> 
+                        </div>
+                    </div> 
+                </div> 
+
+        </div>
+    </div>
+
+    <script>
+        personalImgInp.onchange = evt => {
+            const [file] = personalImgInp.files
+            if (file) {
+                personalImg.src = URL.createObjectURL(file)
+            }
+        }
+
+        borrowerImgInp.onchange = evt => {
+            const [borrowerFile] = borrowerImgInp.files
+            if (borrowerFile) {
+                borrowerImg.src = URL.createObjectURL(borrowerFile)
+            }
+        }
+    </script>
+
+    <script>
+        const corporateNextBtns = document.querySelectorAll('.next-page')
+        const corporatePreviousBtns = document.querySelectorAll('.previous-page')
+        const corporateTabPanes = document.querySelectorAll('.corporate-tab-pane')
+        const corporatePillLists = document.querySelectorAll('.corporate-pill-list') 
+
+        for(let i = 0; i < corporateNextBtns.length; i++) {
+            corporateNextBtns[i].addEventListener('click', function() {
+                window.scrollTo(0,0)
+                // location.href='#top'
+                corporateTabPanes[i].classList.remove('active')
+                corporateTabPanes[i + 1].classList.add('active')
+                corporatePillLists[i].classList.remove('active')
+                corporatePillLists[i + 1].classList.add('active') 
+            })
+        }
+
+        for(let i = 0; i < corporatePreviousBtns.length; i++) {
+            corporatePreviousBtns[i].addEventListener('click', function() {
+                window.scrollTo(0,0)
+                corporateTabPanes[i + 1].classList.remove('active')
+                corporateTabPanes[i].classList.add('active')
+                corporatePillLists[i + 1].classList.remove('active')
+                corporatePillLists[i].classList.add('active')
+            })
+        }
+    </script>
+
+    <script>
+        const loanNextBtns = document.querySelectorAll('.loan-next-page')
+        const loanPreviousBtns = document.querySelectorAll('.loan-previous-page')
+        const loanTabPanes = document.querySelectorAll('.loan-tab-pane')
+        const loanPillLists = document.querySelectorAll('.loan-pill-list') 
+
+        console.log(loanNextBtns)
+        for(let i = 0; i < loanNextBtns.length; i++) {
+            loanNextBtns[i].addEventListener('click', function() {
+                window.scrollTo(0,0)
+                loanTabPanes[i].classList.remove('active')
+                loanTabPanes[i + 1].classList.add('active')
+                loanPillLists[i].classList.remove('active')
+                loanPillLists[i + 1].classList.add('active')
+            })
+        }
+
+        for(let i = 0; i < loanPreviousBtns.length; i++) {
+            loanPreviousBtns[i].addEventListener('click', function() {
+                window.scrollTo(0,0) 
+                loanTabPanes[i + 1].classList.remove('active')
+                loanTabPanes[i].classList.add('active')
+                loanPillLists[i + 1].classList.remove('active')
+                loanPillLists[i].classList.add('active')
+            })
+        }
+    </script>
+
+    <script>
+        const individualNextBtns = document.querySelectorAll('.individual-next-page')
+        const individualPreviousBtns = document.querySelectorAll('.individual-previous-page')
+        const individualTabPanes = document.querySelectorAll('.individual-tab-pane')
+        const individualPillLists = document.querySelectorAll('.individual-pill-list') 
+
+        console.log(individualNextBtns)
+        for(let i = 0; i < individualNextBtns.length; i++) {
+            individualNextBtns[i].addEventListener('click', function() {
+                window.scrollTo(0,0)
+                individualTabPanes[i].classList.remove('active')
+                individualTabPanes[i + 1].classList.add('active')
+                individualPillLists[i].classList.remove('active')
+                individualPillLists[i + 1].classList.add('active')
+            })
+        }
+
+        for(let i = 0; i < individualPreviousBtns.length; i++) {
+            individualPreviousBtns[i].addEventListener('click', function() {
+                window.scrollTo(0,0)
+                console.log(i)
+                individualTabPanes[i + 1].classList.remove('active')
+                individualTabPanes[i].classList.add('active')
+                individualPillLists[i + 1].classList.remove('active')
+                individualPillLists[i].classList.add('active')
+            })
+        }
+    </script>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>  
+</body>
+</html>
